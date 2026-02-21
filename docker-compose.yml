@@ -1,0 +1,6 @@
+services:
+  image-draw:
+    build:
+      context: .
+    ports:
+      - "3002:80"
